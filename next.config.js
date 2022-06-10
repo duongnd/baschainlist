@@ -9,11 +9,11 @@ const isProd = process.env.NODE_ENV === 'production';
 
 module.exports = {
   reactStrictMode: true,
-  assetPrefix: isProd ? 'https://www.bnbchainlist.org/static' : '',
+  assetPrefix: isProd ? 'https://baschainlist.com' : '',
   generateBuildId: async () => {
     return commitHash;
   },
   publicRuntimeConfig: {
-    assetPrefix: isProd ? 'https://www.bnbchainlist.org/static' : '',
+    assetPrefix: isProd ? 'https://baschainlist.com' : '',
   }
 }
