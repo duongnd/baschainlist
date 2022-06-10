@@ -62,11 +62,11 @@ function Home({ changeTheme, theme, sortedChains }) {
   const router = useRouter();
 
   const addNetwork = () => {
-    window.open('https://github.com/node-real/bnbchainlist/tree/main/utils/chains.json', '_blank');
+    window.open('https://github.com/butcher73/baschainlist/tree/main/utils/chains.json', '_blank');
   };
 
   const addRpc = () => {
-    window.open('https://github.com/node-real/bnbchainlist/tree/main/utils/extraRpcs.json', '_blank');
+    window.open('https://github.com/butcher73/baschainlist/tree/main/utils/extraRpcs.json', '_blank');
   };
 
   const chains = useMemo(() => {
@@ -84,11 +84,11 @@ function Home({ changeTheme, theme, sortedChains }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>BNBChain List - BNB Smart Chain and Application Sidechain List</title>
+        <title>BAS Chain List - BNB Smart Chain and Application Sidechain List</title>
         <link rel="icon" href={`${assetPrefix}/favicon.ico`} />
         <meta
           name="description"
-          content="BNBChain List is a list of BNB Smart Chain (BSC) and its Application Sidechains (BAS), including their Mainnets and Testnets. Users can use the information to connect to the appropriate Chain ID and Network ID."
+          content="BAS Chain List is a list of BNB Smart Chain (BSC) and its Application Sidechains (BAS), including their Mainnets and Testnets. Users can use the information to connect to the appropriate Chain ID and Network ID."
         />
       </Head>
 
@@ -97,7 +97,7 @@ function Home({ changeTheme, theme, sortedChains }) {
           <div className={classes.copyContainer}>
             <div className={classes.copyCentered}>
               <Typography variant="h1" className={classes.chainListSpacing}>
-                <span className={classes.helpingUnderline}>BNBChain List</span>
+                <span className={classes.helpingUnderline}>BAS Chain List</span>
               </Typography>
               <Typography variant="h2" className={classes.helpingParagraph}>
                 Connecting to BNBChain multi-chain networks
@@ -128,7 +128,7 @@ function Home({ changeTheme, theme, sortedChains }) {
               <div className={classes.socials}>
                 <a
                   className={`${classes.socialButton}`}
-                  href="https://github.com/node-real/bnbchainlist"
+                  href="https://github.com/butcher73/baschainlist"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -168,7 +168,7 @@ function Home({ changeTheme, theme, sortedChains }) {
           </div>
         </div>
         <div className={theme.palette.type === 'dark' ? `${classes.power} ${classes.darkPower}`: `${classes.power} ${classes.lightPower}`}>
-          Powered by NodeReal
+          Powered by Butcher73
         </div>
       </main>
     </div>

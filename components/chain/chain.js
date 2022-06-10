@@ -37,7 +37,7 @@ export default function Chain({ chain }) {
   }, []);
 
   const icon = useMemo(() => {
-    return chain.chainSlug ? `${assetPrefix}/images/rsz_${chain.chainSlug}.svg` : `${assetPrefix}/unknown-logo.png`;
+    return chain.chainSlug ? `${assetPrefix}/images/icons/${chain.chainSlug}.svg` : `${assetPrefix}/unknown-logo.png`;
   }, [chain]);
 
   const chainId = useChain((state) => state.id);

@@ -11,14 +11,14 @@ export default class MyDocument extends Document {
         <Head>
           <link rel="stylesheet" href={`${assetPrefix}/fonts/Inter/Inter.css`} />
           <link rel="stylesheet" href={`${assetPrefix}/fonts/Druk/Druk.css`} />
-          <script async src={`https://www.googletagmanager.com/gtag/js?id=G-HJLF1RHLH2`}></script>
+          <script async src={`https://www.googletagmanager.com/gtag/js?id=G-GQ24M8ZEW6`}></script>
           <script
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'G-HJLF1RHLH2', { page_path: window.location.pathname });
+              gtag('config', 'G-GQ24M8ZEW6', { page_path: window.location.pathname });
             `,
           }}
         />
