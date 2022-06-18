@@ -129,5 +129,81 @@
         "standard": "EIP3091"
       }
     ]
+  },
+  {
+    "name": "JFIN Chain",
+    "chain": "JFINChain",
+    "rpc": ["https://rpc.jfinchain.com"],
+    "nativeCurrency": {
+      "name": "JFIN",
+      "symbol": "JFIN",
+      "decimals": 18
+    },
+    "infoURL": "https://jfinchain.com",
+    "chainId": 3501,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://exp.jfinchain.com/",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "MrFOX Chain",
+    "chain": "MrFOXChain",
+    "rpc": ["https://rpc.mrfoxchain.com"],
+    "nativeCurrency": {
+      "name": "MrFOX Token",
+      "symbol": "FOX",
+      "decimals": 18
+    },
+    "infoURL": "https://mrfoxchain.com",
+    "chainId": 701,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://exp.mrfoxchain.com/",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Thaichain Application Side Chain",
+    "chain": "TCH-BAS",
+    "rpc": ["https://rpc.tch.dev"],
+    "nativeCurrency": {
+      "name": "TCH Token",
+      "symbol": "TCH",
+      "decimals": 18
+    },
+    "infoURL": "https://tch.dev",
+    "chainId": 702,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://exp.tch.dev",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "T-Verse  Application Side Chain",
+    "chain": "T-Verse Chain",
+    "rpc": ["https://rpc.t-versechain.com"],
+    "nativeCurrency": {
+      "name": "TCH Token",
+      "symbol": "TCH",
+      "decimals": 18
+    },
+    "infoURL": "https://t-versechain.com",
+    "chainId": 703,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "ttps://exp.t-versechain.com",
+        "standard": "EIP3091"
+      }
+    ]
   }
 ]
